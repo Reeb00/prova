@@ -1,7 +1,5 @@
 from strands import Agent, tool
 from strands_tools import calculator, current_time, python_repl
-
-# Define a custom tool as a Python function using the @tool decorator
 @tool
 def letter_counter(word: str, letter: str) -> int:
     """
