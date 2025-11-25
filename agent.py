@@ -25,7 +25,6 @@ def letter_counter(word: str, letter: str) -> int:
 # Create an agent with tools from the strands-tools example tools package
 # as well as our custom letter_counter tool
 agent = Agent(tools=[calculator, current_time, python_repl, letter_counter])
-#fgfgddh
 
 # Ask the agent a question that uses the available tools
 message = """
